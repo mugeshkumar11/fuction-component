@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Shop from './pages/function/add to cart method/cart';
 import reportWebVitals from './reportWebVitals';
 // import Main from './pages/function/state';
-import Main from './pages/function/lifestyle.js';
+// import Main from './pages/function/lifestyle.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Main/>);
+root.render(<Shop/>);
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
